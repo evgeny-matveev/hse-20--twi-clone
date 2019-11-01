@@ -27,6 +27,7 @@ main {
 .story {
   padding: 24px 32px 16px 24px;
   display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 .story--user-ava {
   border-radius: 50%;
@@ -58,6 +59,26 @@ main {
   line-height: 24px;
   padding-top: 8px;
 }
+.story--body--actions {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 140px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.35);
+  margin-top: 16px;
+}
+.story--body--actions li {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.story--body--actions--item {
+  position: absolute;
+  left: 28px;
+}
+
+
+
 
 
 
