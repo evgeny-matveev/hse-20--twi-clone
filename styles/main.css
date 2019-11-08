@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:400,500,700&display=swap&subset=cyrillic');
 
 :root {
   --light-gray: rgba(0, 0, 0, 0.25);
@@ -7,6 +7,7 @@
 }
 
 body {
+  box-sizing: border-box;
   background-color: #FDFFF8;
   font-family: 'Fira Code', monospace;
   -webkit-font-smoothing: antialiased;
@@ -161,8 +162,40 @@ aside {
   transform: translateX(100%);
 }
 aside ul {
-  background-color: var(--light-gray);
+  background-color: rgba(25, 25, 25, 0.05);
   margin-left: 32px;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+aside ul li:first-child {
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.aside__user {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-top: 1px solid var(--light-gray);
+}
+.aside__user img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+.aside__user__info__name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aside__user__info__nick {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+aside ul li:last-child {
+  font-size: 14px;
+  color: var(--accent-color);
+  border-top: 1px solid var(--light-gray);
+  padding: 11px 16px;
 }
 
 
