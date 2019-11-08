@@ -198,6 +198,41 @@ aside ul li:last-child {
   padding: 11px 16px;
 }
 
+@media (max-width: 1024px) {
+  nav {
+    padding: 16px 16px 0 0;
+  }
+  .nav__menu li a {
+    padding: 16px 0;
+  }
+  .nav__menu__text {
+    display: none;
+  }
+  .nav__btn {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav__btn__icn {
+    background-image: url(../img/new-tweet.svg);
+    width: 20px;
+    height: 20px;
+  }
+  .nav__btn__text {
+    display: none;
+  }
+  aside ul {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+}
 
 
 
