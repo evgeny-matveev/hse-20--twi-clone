@@ -7,27 +7,85 @@
 </head>
 <body>
   <nav>
-    <ul>
+    <ul class="nav__menu">
       <li>
-        <div class="nav__icon nav__icon--home"></div>
-        Главная
+        <a href="#">
+          <div class="nav__menu__icon nav__menu__icon--home"></div>
+          Главная
+        </a>
       </li>
       <li>
-        <div class="nav__icon nav__icon--bell"></div>
-        Уведомления
+        <a href="#">
+          <div class="nav__menu__icon nav__menu__icon--bell"></div>
+          Уведомления
+        </a>
       </li>
       <li>
-        <div class="nav__icon nav__icon--chat"></div>
-        Сообщения
+        <a href="#">
+          <div class="nav__menu__icon nav__menu__icon--chat"></div>
+          Сообщения
+        </a>
       </li>
       <li>
-        <div class="nav__icon nav__icon--bookmark"></div>
-        Закладки
+        <a href="#">
+          <div class="nav__menu__icon nav__menu__icon--bookmark"></div>
+          Закладки
+        </a>
       </li>
     </ul>
-
-    <a href="#">Высказаться</a>
+    <a class="nav__btn" href="#">Высказаться</a>
   </nav>
+
+  <aside>
+    <ul>
+      <li>Ваши друзья</li>
+      <li class="user">
+        <img src="img/ava-katya.png" alt="Картинка пользователя">
+        <div class="user__info">
+          <div class="user__info__name">
+            Катерина Кацман
+          </div>
+          <a class="user__info__nick" href="#">
+            @katya-k
+          </a>
+        </div>
+      </li>
+      <li class="user">
+        <img src="img/ava-inna.png" alt="Картинка пользователя">
+        <div class="user__info">
+          <div class="user__info__name">
+            Инна Берг
+          </div>
+          <a class="user__info__nick" href="#">
+            @inna-b
+          </a>
+        </div>
+      </li>
+      <li class="user">
+        <img src="img/ava-dale.png" alt="Картинка пользователя">
+        <div class="user__info">
+          <div class="user__info__name">
+            Агент Д
+          </div>
+          <a class="user__info__nick" href="#">
+            @win-twin
+          </a>
+        </div>
+      </li>
+      <li class="user">
+        <img src="img/ava-platon.png" alt="Картинка пользователя">
+        <div class="user__info">
+          <div class="user__info__name">
+            Человек в облаках
+          </div>
+          <a class="user__info__nick" href="#">
+            @ilovesocrates
+          </a>
+        </div>
+      </li>
+      <li>Показать еще</li>
+    </ul>
+  </aside>
 
   <main>
     <header class="main__header">
